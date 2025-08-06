@@ -1,0 +1,50 @@
+# Python genel
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtualenv
+env/
+venv/
+ENV/
+*.env
+.env
+
+# IDE klasörleri
+.vscode/
+.idea/
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Loglar
+*.log
+
+# Test çıktıları
+htmlcov/
+.coverage
+.cache
+*.cover
+coverage.xml
+
+# Pipenv / poetry dosyaları
+Pipfile.lock
+poetry.lock
+
+# Output / geçici dosyalar
+*.out
+*.tmp
+
+# socket log ve debug dosyaları
+*.sock
+*.pid
+
+# Uygulama tarafından oluşturulmuş geçici dosyalar
+*.db
+*.sqlite3
+
+# My custom temp files
+debug.txt
+*.bak
